@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My 1st</title>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="logo">Norah Horowitz, Ph.D</span>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="nav-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="area.html">Areas of Expertise</a></li>
+                <li><a href="area.html#myappraoch">My Approach</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+<section id="Home" >
+    <div class="container" >
+        <div class="image-section">
+            <img src="images/img1.jpg" style="width: 750px;"alt="A lady smiling" class="image1">
+        </div>
+        <div class="text-section">
+            <h1 class="heading1 slide-in-left">Norah <br class="break"> Horowitz</h1>
+            <h3 class="heading2 slide-in-right">
+                <span class="phd-text slide-in"></span>Ph.D. Clinical Psychotherapist
+              </h3>
+              
+            <p class="paragraph slide-in-bottom">
+                I'm a paragraph. Click here to add your own text and edit me.
+                 It’s easy.<br> Just click “Edit Text” or double click me to add
+                  your own content and make<br> changes to the font. I’m a great
+                   place for you to tell a story and let your<br> users know a 
+                   little more about you.
+                
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section id="services">
+        <div class="container2" >
+             <div class="contentleft">
+                      <h3 class="slide-in-left aexp">Areas of Expertise</h3><span class="linesprt slide-in-right"></span>
+                        <h3 class="conlfth5 slide-in-bottom">Counselling, Psychotherapy, Cognitive<br>
+                                                             Behavioural Therapy & Psychiatric Consultation.
+                         </h3>
+             </div>   
+
+               <div class="contentright">
+                    <p class="p1 slide-in-bottom">I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                    Just click “Edit Text” or double click me to add your own content and make<br>
+                    changes to the font. Feel free to drag and drop me anywhere you like on<br>
+                    your page. I’m a great place for you to tell a story and let your users<br>
+                    know a little more about you.</p>
+               
+                    <p class="p2 slide-in-bottom">This is a great space to write long text about your company and your<br>
+                    services. You can use this space to go into a little more detail about your <br>
+                    company. Talk about your team and what services you provide. Tell your<br>
+                    visitors the story of how you came up with the idea for your business and<br>
+                    what makes you different from your competitors. </p>
+
+                    <button class="btn slide-in-bottom">Read More</button>
+              </div>
+       
+       
+        </div>
+    </section>
+    
+
+
+    <section>
+        <div class="container3" id="Contact">
+         
+            <div class="image-container">
+                <img src="images/img2.jpg" alt="A beautiful green plant" class="image2">
+            </div>
+    
+          
+            <div class="content-container">
+                <div class="textsec">
+                    <h3 class="slide-in-left">Contact Me</h3>
+                    <span class="line slide-in-right"></span>
+                    <p class="para1 slide-in-bottom">
+                        I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
+                        Just click “Edit Text” or double click me to add your own content and make<br>
+                        changes to the font. I’m a great place for you to tell a story and let your<br>
+                        users know a little more about you.
+                    </p>
+    
+                    <p class="para2 slide-in-bottom">
+                        500 Terry Francine Street &emsp;&emsp; Tel: 123-456-7890<br>
+                        San Francisco, CA 94158 &emsp;&emsp; Fax: 123-456-7890<br>
+                        info@mysite.com
+                    </p>
+                </div>
+    
+               
+                <div class="form-container">
+                    <form>
+                        <div class="row" style="width:500px;">
+                            <div class="input-group">
+                                <label for="first-name">First name *</label>
+                                <input type="text" id="first-name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="last-name">Last name *</label>
+                                <input type="text" id="last-name" required>
+                            </div>
+                        </div>
+    
+                        <div class="row2" style="width:500px;">
+                            <div class="input-group2">
+                                <label for="Email">Email *</label>
+                                <input type="text" id="Email" required>
+                            </div>
+    
+                            <div class="input-group2">
+                                <label for="message">Message</label>
+                                <textarea id="message"></textarea>
+                            </div>
+                        </div>
+    
+                        <button class="btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <button class="chatbtn" id="chat-toggle">
+        <i class="fa-regular fa-comment"></i> Let's Chat!
+    </button>
+
+    <div class="chatbox" id="chatbox">
+        <div class="chatbox-header">
+            clinical-psychotherapist
+            <br>We’ll reply as soon as we can
+            <button id="close-chat">×</button>
+        </div>
+        <div class="chatbox-body">
+        </div>
+        <div class="chatbox-footer">
+            <button><i class="fa-regular fa-face-smile"></i></button>
+            <button id="attachment-btn"><i class="fa-solid fa-paperclip"></i></button>
+            <input type="text" id="chat-input" placeholder="write your message...">
+            <button class="send-btn" id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    
+                    <script src="index.js"></script>
+                    
+</body>
+</html>
+</body>
