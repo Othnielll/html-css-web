@@ -504,10 +504,10 @@ input:focus, textarea:focus {
  /* Style for chatbox */
  .chatbox {
     position: fixed;
-    bottom: 80px;
+    bottom: 20px;
     right: 20px;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 510px;
     background:  #F2F2F2;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -541,10 +541,10 @@ input:focus, textarea:focus {
 }
 
 .chatbox-footer {
-    padding: 5px;
+   
     display: flex;
     flex-direction: row-reverse;
-    gap: 5px;
+    padding: 20px 0px;
     align-items: center;
     border-top: 1px solid #ddd;
     background: white;
@@ -572,6 +572,7 @@ input:focus, textarea:focus {
     color: #007bff;
     display: none;
 }
+
 
 
 
